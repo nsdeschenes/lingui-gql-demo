@@ -104,4 +104,4 @@ dist
 .tern-port
 
 #API lingui ignores
-api-js/src/locale/_build
+src/locale/_build
