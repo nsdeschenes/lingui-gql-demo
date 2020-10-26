@@ -1,28 +1,28 @@
 {
-  "name": "testtranslationsapi",
+  "name": "lingui-gql-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A test platform to see how to integrate lingui with graphql",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "babel-start": "npx babel-node --presets @babel/preset-env index.js",
+    "start": "npx babel-node --presets @babel/preset-env index.js",
     "add-locale": "npx lingui add-locale",
     "extract": "npx lingui extract",
-    "compile": "npx lingui compile"
+    "compile": "npx lingui compile",
+    "lin-clean": "npx lingui extract --clean"
   },
-  "author": "",
+  "author": "nsdeschenes",
   "license": "MIT",
   "dependencies": {
     "@lingui/core": "^2.9.2",
-    "graphql": "^15.3.0"
+    "graphql": "^15.4.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.5",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
     "@lingui/cli": "^2.9.2",
-    "@lingui/loader": "^3.0.0-13",
+    "@lingui/loader": "^2.9.2",
     "@lingui/macro": "^2.9.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-macros": "^2.8.0"

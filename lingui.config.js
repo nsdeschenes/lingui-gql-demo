@@ -1,14 +1,10 @@
 module.exports = {
-    compileNamespace: "cjs",
-    extractBabelOptions: {},
-    fallbackLocale: "en",
-    sourceLocale: "en",
-    localeDir: "locale",
-    srcPathDirs: [
-      "index.js"
-    ],
-    srcPathIgnorePatterns: [
-      "/node_modules/"
-    ],
-    format: "po"
-  }
+  compileNamespace: 'cjs',
+  extractBabelOptions: {},
+  fallbackLocale: 'en',
+  sourceLocale: 'en',
+  localeDir: 'src/locale',
+  srcPathDirs: ['src'],
+  srcPathIgnorePatterns: ['/node_modules/'],
+  format: 'po',
+}

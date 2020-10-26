@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-10-08 07:45-0300\n"
+"POT-Creation-Date: 2020-10-26 20:25-0300\n"
 "Mime-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: index.js:31
+#: src/demo.js:17
 msgid "Separate console log"
 msgstr "Separate console log"
 
-#: index.js:32
+#: src/demo.js:18
 msgid "world"
 msgstr "world"
